@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    margin: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    width: 340px;
+    border-radius: 15px;
+}
+
+.cube {
+    width: 300px;
+    border-radius: 15px;
+
+    margin: 20px;
+}
+
+.cube:hover {
+    background-color: hsl(178, 100%, 50%);
+}
+
+h3, p {
+    width: 300px;
+    padding: 10px 0 0 20px;
+}
+
+p {
+    opacity: 0.5;
+}
+
+.price {
+    display: flex;
+    width: 300px;
+    align-content: space-between;
+    margin: 10px 0 10px 20px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: bolder;
+}
+
+.clock {
+    margin: 0 0 0 90px;
+    opacity: 0.5;
+}
+
+hr {
+    width: 300px;
+    margin: 30px 20px 20px;
+}
+
+.profile {
+    width: 300px;
+}
+
+.profile-pic {
+    width: 50px;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.profile p {
+    clear: right;
+    margin: 0 0 5px 50px;
+}
+
+.profile span {
+    color: white;
+    opacity: 1;
+}
+
+.attribution {
+    text-align: center;
+    padding: 10px;
+}
+
+
